@@ -56,7 +56,7 @@ O podemos ejecutar:
 
 * El script `parametros_especiales.sh`: tiene una serie de instrucciones las cuales se te indicaran conforme lo ejecutes, es importante que leeas cada output que este arroja ya que para su correcto funcionamiento se requiere que introduzcas SOLAMENTE los caracteres especiales que este te indica, sí no se colocan el script simplemente se cerrará y no podras obtener los ejemplos y la explicación de cada parametro especial.
 
-* El script `backup_postgres.sh`: Es necesario solo ejecutar el script nos solicitará el nombre de la base de datos y sus contraseñas para poder realizar el respaldo y despues de que lo terminé el script se cerrará y te devolverá la ruta en donde puso el respaldo de la base de datos.
+* El script `backup_postgres.sh`: Es recomendable ejecutar el script con permisos de sudo, nos solicitará el nombre de la base de datos, sus claves de acceso y opcionalmente una ruta absoluta en donde querramos guardar el respaldo para poder realizar un backup de lo que le indiquemos y despues de que lo terminé el script se cerrará.
 
 ### 6. Revisar script
 
