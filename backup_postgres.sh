@@ -15,7 +15,8 @@ read -p "Porfavor introduce el nombre de usuario que tiene los mayores privilegi
 echo "Usando el usuario: $userdatabase "
 
 read -s -p "Porfavor introduce la contraseña del usuario indicado: " userdatabasepassword
-echo "" # Add a newline after the silent password input
+
+echo "" 
 
 echo "Usaré el usuario $userdatabase con la contraseña proporcionada para respaldar la base de datos $database"
 
