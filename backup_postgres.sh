@@ -14,6 +14,7 @@ read -p "Porfavor introduce el nombre de usuario que tiene los mayores privilegi
 
 echo "Usando el usuario: $userdatabase "
 
+#La flag -s nos ayuda a que el usuario pueda escribir su password sin mostrar en pantalla lo que escribió
 read -s -p "Porfavor introduce la contraseña del usuario indicado: " userdatabasepassword
 
 echo "" 
