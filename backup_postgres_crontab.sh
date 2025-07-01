@@ -20,7 +20,7 @@ backup_filename="${database}_${timestamp}.sql"
 full_backup_path="${backup_path}/${backup_filename}"
 
 # pg_dump es el comando de respaldo para postgres
-PGPASSWORD="$userdatabasepassword" pg_dump -U "$userdatabase" -d "$database" > "$full_backup_path"
+PGPASSWORD="$password" pg_dump -U "$username" -d "$database" > "$full_backup_path"
 
 # Usando el parametro especial $? para confirmar que el respaldo se completó exitosamente
 if [ $? -eq 0 ]; then
