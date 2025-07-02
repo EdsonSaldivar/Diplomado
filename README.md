@@ -6,7 +6,7 @@
 
 ## 🚀 Contenido del Repositorio
 
-* `backup_postgres.sh`: Un script diseñado para automatizar los respaldos de tus bases de datos PostgreSQL.
+* `backup_postgres_crontab.sh`: Un script diseñado para automatizar los respaldos de tus bases de datos PostgreSQL.
 * `parametros_especiales.sh`: Un script interactivo que te ayudará a comprender los principales parámetros especiales de Bash (`$0`, `$*`, `$@`, `$#`, `$$`, `$?`) y sus casos de uso.
 
 ---
